@@ -1,5 +1,7 @@
 # Typing Speed Test
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Built with](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
 ![typing-speed-test screenshot](screenshot.png)
 
 A 30-second typing game that measures **WPM** and **accuracy** live and remembers your best score.
