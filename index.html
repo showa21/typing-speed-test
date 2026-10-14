@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Typing Speed Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Typing Speed Test</h1>
+  <div class="stats">
+    <div><small>Time</small><strong id="time">30</strong></div>
+    <div><small>WPM</small><strong id="wpm">0</strong></div>
+    <div><small>Accuracy</small><strong id="acc">100%</strong></div>
+    <div><small>Best</small><strong id="best">0</strong></div>
+  </div>
+  <p id="text" aria-live="off"></p>
+  <input id="input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Start typing to begin…" aria-label="Type the text above">
+  <button id="restart">Restart</button>
+  <p id="result" role="status"></p>
+</main>
+<script src="stats.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
